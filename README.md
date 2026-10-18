@@ -43,4 +43,3 @@ Edit rice-config.lua to change its package list, GNOME settings, Kitty appearanc
 ## Notes
 The configuration provides a dark GNOME theme, a Plank dock, and translucent Kitty terminal settings. It does not include a wallpaper or automatically arrange open windows.
 This repository is a work in progress. More kacuOS configuration examples may be added over time.
-```

@@ -1,7 +1,5 @@
 # kacuOS-configs
 
-# kacuOS-configs
-
 Personal configuration files for **kacuOS**, an Arch Linux based desktop project. This repository currently contains a Lua configuration for a dark GNOME desktop setup.
 
 ## Contents

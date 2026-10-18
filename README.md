@@ -23,19 +23,24 @@ Build and install `kacu-pkg` from the kacuOS source repository, then preview the
 
 ```bash
 kacu-pkg apply ./rice-config.lua --dry-run
-
+```
 ## Apply the configuration
 
 Preview the changes first:
 
 ```bash
 kacu-pkg apply ./rice-config.lua --dry-run
+```
 Then apply them:
+```bash
 kacu-pkg apply ./rice-config.lua
+```
 Review the package list and the changes described in the Lua file before applying it. Pacman will show its normal confirmation prompt before installing packages.
-Customization
+
+## Customization
 Edit rice-config.lua to change its package list, GNOME settings, Kitty appearance, or supported autostart entries. To use a wallpaper, add a picture-uri setting with a file:///... URI pointing to an image on your computer.
-Notes
+
+## Notes
 The configuration provides a dark GNOME theme, a Plank dock, and translucent Kitty terminal settings. It does not include a wallpaper or automatically arrange open windows.
 This repository is a work in progress. More kacuOS configuration examples may be added over time.
 ```
